@@ -25,9 +25,9 @@ public class WiimoteAdapter extends WiiRemoteAdapter
   
   private WiiRemote remote;
   private static int t = 0;
-  public static int x = 0;
-  public static int y = 0;
-  public static int z = 0;
+  public static double x = 0;
+  public static double y = 0;
+  public static double z = 0;
   public static double lightX = 0;
   public static double lightY = 0;
     
@@ -75,9 +75,9 @@ public class WiimoteAdapter extends WiiRemoteAdapter
   {
     if (accelerometerSource)
     {
-      x = (int)(evt.getXAcceleration()/5*300);
-      y = (int)(evt.getYAcceleration()/5*300);
-      z = (int)(evt.getZAcceleration()/5*300);       
+      x = evt.getXAcceleration();
+      y = evt.getYAcceleration();
+      z = evt.getZAcceleration();       
       t++;
     }
     

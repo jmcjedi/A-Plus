@@ -268,9 +268,9 @@ public class Connect extends BasicGameState
       {
         irX = WiimoteAdapter.lightX;
         irY = WiimoteAdapter.lightY;
-        accelX = WiimoteAdapter.x;
-        accelY = WiimoteAdapter.y;
-        accelZ = WiimoteAdapter.z;
+        //accelX = WiimoteAdapter.x;
+        //accelY = WiimoteAdapter.y;
+        //accelZ = WiimoteAdapter.z;
       }
     }
     //else System.out.println("NotConnected...");

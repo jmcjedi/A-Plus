@@ -1,3 +1,8 @@
+/***********************************************************
+ * John-Mark Collins
+ * 10/12/2013
+ * A.java creates a 'A' object for air-writing following.
+ **********************************************************/
 package aplusmain;
 
 import java.awt.Point;
